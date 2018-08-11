@@ -1,2 +1,10 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<%provide(:title, "Home")%>
+<html>
+<head>
+  <title> <%= yield(:title) %> |Pieces </title>
+</head>
+<body>
+<h1>Pieces</h1>
+<p>Looking forward to bringing you guys a Twitter clone! Stay here!</p>
+</body>
+</html>
