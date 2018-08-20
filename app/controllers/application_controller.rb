@@ -4,4 +4,6 @@ class ApplicationController < ActionController::Base
   def hello
     #render html: "Hey there! An awesome app is coming soon. Stay tuned!"
   end
+
+  
 end
